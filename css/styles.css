@@ -1,0 +1,620 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.index{
+    font-family: 'Poppins', sans-serif;
+    background-color: #1f1f1f;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    background-image: url(../assets/images/bg.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.menucontainer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.logo{
+    font-size: 24px;
+    color: #cf2d3a;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float: right;
+}
+
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: #ffffff;
+    display: block;
+}
+
+.menu .navbar ul li a:hover{
+    color: #cf2d3a;
+}
+
+#menu{
+    display: none;
+}
+
+.menu-icono{
+    width: 25px;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+.header-txt{
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.header-txt h1,span,h3{
+    font-size: 100px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue',cursive;
+    color: #cf2d3a;
+    margin-bottom: 15px;
+}
+
+.header-txt span{
+    font-size: 55px;
+}
+
+.header-txt p{
+    color: #afafaf;
+    padding: 0 250px;
+    margin: 25px 0;
+}
+
+.btn-1{
+    display: inline-block;
+    padding: 11px 25px;
+    background-color: #d82e37;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-family: 'Bebas Neue',cursive;
+    margin: 25px 0;
+    border: 0;
+}
+
+.btn-1:hover{
+    background-color: #b4272e;
+}
+
+.header-dir{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.dir h3{
+    font-size: 18px;
+}
+
+.dir p{
+    font-size: 22px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.welcome{
+    display: flex;
+}
+
+.welcome-1{
+    background-image: url(../assets/images/a1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.welcome-2{
+    width: 50%;
+    padding: 150px 250px 150px 100px;
+    background-color: #191919;
+}
+
+h2{
+    font-size: 90px;
+    line-height: 100px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue',cursive;
+    margin-bottom: 20px;
+    color: #e3cfcf;
+}
+
+p{
+    font-size: 16px;
+    color: #afafaf;
+    margin: 25px 0;
+}
+
+.b1{
+    color: #cf2d3a;
+}
+
+.services{
+    padding: 100px 0;
+    text-align: center;
+}
+
+.services-txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hr{
+    border: 1px solid #cf2d3a;
+    width: 8px;
+}
+
+.services-txt p{
+    padding: 50px 150px;
+}
+
+.services-group{
+    display: flex;
+    justify-content: space-between;
+    margin: 45px 0;
+}
+
+.services-1{
+    background-color: #070707;
+    padding: 35px 25px;
+    margin: 0 10px;
+    border-radius: 15px;
+}
+
+.services-1 img{
+    width: 25px;
+    margin-bottom: 15px;
+}
+
+.services-1 h3{
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.services-1 a{
+    color: #cf2d3a;
+    font-size: 16px;
+}
+
+.prices{
+    display: flex;
+}
+
+.prices-1{
+    width: 50%;
+    padding: 150px 25px 150px 100px;
+    background-color: #191919;
+}
+
+table{
+    margin: 50px 0;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+tr{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #afafaf;
+    margin-bottom: 20px;
+}
+
+th{
+    color: #ffffff;
+    padding-bottom: 15px;
+}
+
+td{
+    color: #cf2d3a;
+}
+
+.prices-2{
+    background-image: url(../assets/images/a2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.personal{
+    padding: 100px 0;
+    text-align: center;
+}
+
+.personal-txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.personal-group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+.personal-1{
+    text-align: center;
+}
+
+.personal-1 img{
+    width: 250px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+.personal-1 h3{
+    font-size: 22px;
+}
+
+.personal-1 p{
+    padding: 0 50px;
+}
+
+.personal-1 a{
+    color: #cf2d3a;
+}
+
+.footer-bg{
+    background-image: url(../assets/images/bg-2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.campo-1{
+    margin-bottom: 15px;
+}
+
+.campo{
+    margin: 5px;
+    padding: 20px 15px;
+    width: 250px;
+    background-color: #0e0e0e;
+    border: 1px solid #cf2d3a;
+    outline: none;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+textarea{
+    width: 520px !important;
+}
+
+.footer-txt{
+    text-align: center;
+    padding: 10px;
+    background-color: #070707;
+}
+
+.presupuesto{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    background: #1f1f1f;
+    height: 100vh;
+}
+
+.formulario{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: #FFF;
+    border-radius: 10px;
+}
+
+.formulario h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid #C0C0C0;
+}
+
+.formulario form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+form .username{
+    position: relative;
+    border-bottom: 2px solid #ADADAD;
+    margin: 30px 0;
+}
+
+form .contraseña{
+    position: relative;
+    border-bottom: 2px solid #ADADAD;
+    margin: 30px 0;
+}
+
+.username input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.contraseña input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.username span::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #6C3483;
+}
+
+.contraseña span::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #6C3483;
+}
+
+.username input:focus ~ label,
+.contraseña input:focus ~ label{
+    top: -5px;
+    color: #6C3483;
+}
+
+.username input:focus ~ span::before,
+.contraseña input:focus ~ span::before{
+    width: 100%;
+}
+
+.recordar{
+    margin:-5px 0 20px 5px;
+    color: #0000FF;
+    cursor: pointer;
+}
+
+.recordar:hover{
+    text-decoration: underline;
+}
+
+.presupuesto input[type="submit"]{
+    width: 100%;
+    height: 50px;
+    border: 1px solid;
+    background: #6C3483;
+    border-radius: 25px;
+    font-size: 18px;
+    color: #FFF;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover{
+    border-color: #6C3483;
+    transition: .5s;
+}
+
+.registrarse{
+    margin: 30px 0;
+    text-align: center;
+    font-size: 16px;
+    color: black;
+}
+
+.registrarse a{
+    color: #0000FF;
+    text-decoration: none;
+}
+
+.registrarse a:hover{
+    text-decoration: underline;
+}
+
+.galeria{
+    background-color: #1f1f1f;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 50px;
+    text-transform: uppercase;
+    color: #cf2d3a;
+}
+
+.slider-box{
+    width: 960px;
+    height: auto;
+    margin: 50px auto 0;
+}
+
+.slider-box ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 20s infinite alternate ease-in-out;
+}
+
+.slider-box li{
+    width: 100%;
+    list-style: none;
+    position: relative;
+}
+
+.texto-i{
+    position: absolute;
+    text-align: center;
+    padding: 0 250px;
+    top: 250px;
+    color: #c91717;
+}
+
+.texto-i h2{
+    color: #c91717;
+    text-transform: uppercase;
+}
+
+.texto-i p{
+    color: #b81313;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.galeria .texto-i h2{
+    font-size: 45px;
+    margin-bottom: 35px;
+}
+
+.slider-box img{
+    width: 100%;
+}
+
+@keyframes slide {
+    0% {margin-left: 0;}
+    20%{margin-left: 0;}
+    
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+    
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
+
+.contacto{
+    background-color: black;
+}
+
+.about img{
+    height: auto;
+    width: 420px;
+}
+
+.about-text{
+    width: 550px;
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h1{
+    color: white;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text h5{
+    color: white;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+span{
+    color: red;
+}
+
+.about-text p{
+    color: #fcfc;
+    font-size: 18px;
+    margin-bottom: 45px;
+    letter-spacing: 1px;
+    line-height: 28px;
+}
+
+button{
+    background: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+button:hover{
+    background: transparent;
+    border: 2px solid  #f9004d;
+    cursor: pointer;
+}
+@font-face{
+    font-family: rale;
+    src: url(./../fuente/Raleway-Regular.ttf);
+}
