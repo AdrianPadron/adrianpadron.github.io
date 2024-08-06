@@ -19,6 +19,11 @@
     margin: 0 auto;
 }
 
+.active {
+  font-weight: bold;
+  color: red;
+}
+
 .header{
     background-image: url(../assets/images/bg.jpg);
     background-position: center top;
