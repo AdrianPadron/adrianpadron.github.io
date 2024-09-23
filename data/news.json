@@ -1,0 +1,12 @@
+{
+    "news": [
+        {
+            "title": "Noticia 1",
+            "content": "Contenido de la noticia 1."
+        },
+        {
+            "title": "Noticia 2",
+            "content": "Contenido de la noticia 2."
+        }
+    ]
+}

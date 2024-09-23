@@ -1,0 +1,103 @@
+body .index {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, nav, section {
+    padding: 20px;
+    margin: 10px;
+}
+
+.logo {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+section {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+body .galeria {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+main {
+    padding: 2em;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+#gallery img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+
+.error { color: red; }
+
+.submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.submit-btn:hover {
+    background-color: #45a049;
+}
+
+.reset-btn {
+    background-color: #4CAF50;
+}
+.reset-btn:hover {
+    background-color: #45a049;
+}

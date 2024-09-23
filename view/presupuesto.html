@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presupuesto</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header class="logo">
+        <h1>Formulario de Presupuesto</h1>
+    </header>
+    <nav class="navbar">
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="galeria.html">Galería</a></li>
+            <li><a href="#">Presupuesto</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <form id="presupuestoForm">
+        <fieldset>
+            <legend>Datos de contacto</legend>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" maxlength="15" required>
+            <span class="error" id="nombreError"></span><br>
+
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos" maxlength="40" required>
+            <span class="error" id="apellidosError"></span><br>
+
+            <label for="telefono">Teléfono de contacto:</label>
+            <input type="text" id="telefono" name="telefono" maxlength="9" required>
+            <span class="error" id="telefonoError"></span><br>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <span class="error" id="emailError"></span><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Presupuesto</legend>
+            <label for="producto">Producto:</label>
+            <select id="producto" name="producto" required>
+                <option value="producto1" data-precio="100">Producto 1 - €100</option>
+                <option value="producto2" data-precio="200">Producto 2 - €200</option>
+                <option value="producto3" data-precio="300">Producto 3 - €300</option>
+            </select><br>
+
+            <label for="plazo">Plazo (meses):</label>
+            <input type="number" id="plazo" name="plazo" min="1" required><br>
+
+            <label>Extras:</label><br>
+            <input type="checkbox" id="extra1" name="extras" value="50"> Extra 1 - €50<br>
+            <input type="checkbox" id="extra2" name="extras" value="75"> Extra 2 - €75<br>
+            <input type="checkbox" id="extra3" name="extras" value="100"> Extra 3 - €100<br>
+        </fieldset>
+
+        <h2>Presupuesto Final: €<span id="presupuestoFinal">0</span></h2>
+        <button type="submit" class="submit-btn">Enviar</button>
+        <button type="reset" class="reset-btn">Resetear</button>
+    </form>
+    <footer>
+        <p>© 2024 Mi Sitio Web</p>
+    </footer>
+    <script src="../js/scripts.js"></script>
+</body>
+</html>
+
